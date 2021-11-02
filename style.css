@@ -1533,7 +1533,6 @@ blockquote cite:before {
 .full-width-header .rs-header .menu-area .rs-menu-area {
   display: flex;
   align-items: center;
-  margin-right: 72px;
 }
 .full-width-header .rs-header .menu-area .main-menu {
   position: unset;
