@@ -26,6 +26,9 @@
 		<link rel="stylesheet" href="css/styles.css" />	
 	</head>
 	<body data-nav-offset="58">
+	
+		<!-- Page Loader -->
+		<div class="page-loader"></div>
 			
 		<!-- Mobile Menu -->
 		<div class="mobile-menu-wrapper d-lg-none">
@@ -79,12 +82,34 @@
 										<li class="post-date"><span class="ti-calendar mr-2 text-white"></span><a href="#" class="text-white">Spe 4, 2020</a></li>
 									</ul>
 								</div><!-- .media-body -->
-							</div><!-- .post-list -->							
+							</div><!-- .post-list -->	
+							<div class="media post-list mb-4">
+								<a href="#" class="post-img-link mr-3">
+									<img src="images/post/mini/3.jpg" class="img-fluid rounded" alt="France celebrate the birth of the French Republic" />
+								</a>
+								<div class="media-body">
+									<h6 class="post-titles text-white">France celebrate the birth of the French Republic</h6>
+									<ul class="nav post-meta">
+										<li class="post-date"><span class="ti-calendar mr-2 text-white"></span><a href="#" class="text-white">Spe 4, 2020</a></li>
+									</ul>
+								</div><!-- .media-body -->
+							</div><!-- .post-list -->
+							<div class="media post-list mb-4">
+								<a href="#" class="post-img-link mr-3">
+									<img src="images/post/mini/4.jpg" class="img-fluid rounded" alt="While many trends build on current styles and ideas" />
+								</a>
+								<div class="media-body">
+									<h6 class="post-titles text-white">While many trends build on current styles and ideas</h6>
+									<ul class="nav post-meta">
+										<li class="post-date"><span class="ti-calendar mr-2 text-white"></span><a href="#" class="text-white">Spe 4, 2020</a></li>
+									</ul>
+								</div><!-- .media-body -->
+							</div><!-- .post-list -->	
 						</div><!-- .post-list-wrapper -->
 					</div><!--.widget-content -->
 				</div><!--.widget-wrap -->
 			</div>
-		</div><!-- .search-overlay-wrap -->
+		</div><!-- .secondary-bar-wrap -->
 		
 		<!-- Sigin/Register Form -->
 		<div class="user-login-form-wrap">
@@ -146,22 +171,81 @@
 		
 		<!--Header-->
 		<header class="masterhead">
-	
+		
+			<!-- Topbar for Desktop | Top Sliding Bar for Tablet/Mobile -->
+			<div class="set-mobile-top-sliding">
+				<a href="#" class="mobile-top-sliding d-lg-none"><span class="ti-arrow-down"></span></a>
+				<div class="header-topbar dark-style-bar pt-2 pb-2 p-lg-0">
+					<div class="container">
+						<div class="header-parts-wrap">
+							<div class="header-parts-nav d-lg-flex">
+								<div class="header-left d-lg-flex">
+									<div class="topbar-info-wrap">
+										<ul class="nav justify-content-center">
+											<li><span class="welome-text">Welcome to Ultrauniq</span></li>
+										</ul>
+									</div>
+								</div><!-- .header-left -->
+								<div class="header-right d-lg-flex ml-lg-auto">
+									<div class="topbar-info-wrap">
+										<ul class="nav justify-content-center">
+											<li><a href="malto:info@ultrauniq.com" ><span class="mail-text"><i class="ti-mail"></i> info@ultrauniq.com</span></a></li>
+										</ul>
+									</div>
+									<div class="social-icons-wrap align-self-center">
+										<ul class="nav social-icons primary-social-icons justify-content-center">
+											<li><a href="#" class="facebook-icon"><span class="ti-facebook small-icon"></span></a></li>
+											<li><a href="#" class="twitter-icon"><span class="ti-twitter small-icon"></span></a></li>
+											<li><a href="#" class="instagram-icon"><span class="ti-instagram small-icon"></span></a></li>
+										</ul>
+									</div>
+								</div><!-- .header-right -->
+							</div><!-- .header-parts-nav -->
+						</div><!-- .header-parts-wrap -->
+					</div><!-- .container -->
+				</div><!-- .header-topbar -->
+			</div><!-- .set-header-sticky -->
+			
+			<!-- Logobar for Desktop -->
+			<div class="header-logobar border-bottom d-none d-lg-flex">
+				<div class="container">
+					<div class="header-parts-wrap">
+						<div class="header-parts-nav d-flex">
+							<div class="header-left mr-auto align-self-center">
+								<!-- Secondary Menu Triger -->
+								<div class="secondary-trigger-wrap">
+									<a href="#" class="secondary-menu-trigger"><span class="toggle-lines"></span></a>
+								</div>
+							</div><!-- .header-left -->	
+							<div class="header-center justify-content-center d-flex">
+								<!-- Site Logo -->
+								<div class="logo-wrap">
+									<a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Ultrauniq" src="images/logo.png"></a>
+								</div>
+							</div><!-- .header-center -->	
+							<div class="header-right d-flex align-self-center ml-auto">
+								<!-- Overlay Search Trigger -->
+								<div class="search-trigger-wrap">
+									<a href="#" class="search-trigger overlay-search-trigger"><span class="ti-search"></span></a>
+								</div>
+							</div><!-- .header-right -->							
+						</div><!-- .header-parts-nav -->
+					</div><!-- .header-parts-wrap -->
+				</div><!-- .container -->
+			</div><!-- .header-logobar -->
+			
 			<!-- Set Header Sticky  -->
 			<div class="set-header-sticky">				
 				<!-- Navbar for Desktop -->
-				<div class="header-navbar header-abs abs-text-light d-none d-lg-flex">
+				<div class="header-navbar d-none d-lg-flex">
 					<div class="container">
 						<div class="header-parts-wrap">
 							<div class="header-parts-nav d-flex">
 								<div class="header-left d-flex">
 									<!-- Logo Wrapper -->
-									<div class="logo-wrap">
-										<a href="index.html" class="site-logo default-logo"><img class="img-fluid mr-3" alt="Ultrauniq"  src="images/white-logo.png"></a>
+									<div class="logo-wrap m-0">
 										<a href="index.html" class="site-logo sticky-logo"><img class="img-fluid mr-3" alt="Ultrauniq" src="images/sticky-logo.png"></a>
 									</div>
-								</div> <!-- .header-left -->
-								<div class="header-right d-flex align-self-center ml-auto">
 									<!-- Site Menu -->
 									<ul class="nav site-menu d-none d-lg-flex">
 										<li class="nav-item active"><a href="index.html">Home</a></li>
@@ -271,10 +355,14 @@
 										</li>
 										<li class="nav-item"><a href="contactus.html">Contact</a></li>
 									</ul>
-								<!-- Overlay Search Trigger -->
-									<div class="search-trigger-wrap">
-										<a href="#" class="search-trigger overlay-search-trigger"><span class="ti-search"></span></a>
-									</div>
+								</div> <!-- .header-left -->
+								<div class="header-right d-flex align-self-center ml-auto">
+									<!-- Signin Form Trigger -->
+									<ul class="nav">
+										<li class="login-dropdown menu-item-has-children">
+											<a href="#" class="signin-form-trigger"><span class="ti-user mr-1"></span> Signin/Register</a>
+										</li>
+									</ul>
 								</div><!-- .header-right -->
 							</div><!-- .header-parts-nav -->
 						</div><!-- .header-parts-wrap -->
@@ -301,168 +389,50 @@
 							</div><!-- .header-parts-nav -->
 						</div><!-- .header-parts-wrap -->
 					</div><!-- .container -->
-				</div><!-- .mobile-header -->				
+				</div><!-- .mobile-header -->
 			</div><!-- .header-sticky-part -->
 			
-			<section class="section section-top vh-100 set-as-background" data-bgimg="images/bg/1.jpg">
+			<section class="section section-top vh-100 set-as-background" data-bgimg="images/bg/7.jpg">
+				<span class="abs-theme-bg"></span>
+				<span class="abs-dots"></span>
+				<span class="abs-img set-as-background" data-bgimg="images/vectors/2.png"></span>
+				<span class="float-parallax floating-animate-model-3" data-img="images/float/circle.png" data-alt="UltrauniQ Floating Circle" data-top="10" data-left="35" data-distance="40" data-mouse="1" data-width="30"></span>
+				<span class="float-parallax floating-animate-model-2" data-img="images/float/star.png" data-alt="UltrauniQ Floating Star" data-top="40" data-left="92" data-distance="100" data-mouse="1" data-width="30"></span>
+				<span class="float-parallax floating-animate-model-1" data-img="images/float/triangle.png" data-alt="UltrauniQ Floating Triangle" data-top="80" data-left="50" data-distance="20" data-mouse="1" data-width="30"></span>
 				<div class="container h-100">
-					<div class="row align-items-center justify-content-end h-100">
-						<div class="col-md-6 mt-0 mt-md-5 text-right">
-							<!-- Home Slider -->
-							<div class="slide-wrapper">
-								<div class="owl-carousel"  data-loop="1" data-nav="0" data-dots="0" data-items="1" data-tab="1" data-mobile="1" data-margin="0" data-autoplay="1" data-animation-in="fade-in">
-									<div class="item p-2">
-										<h1 class="mb-3 text-uppercase text-dark foxy-animate" data-animate="fade-in-down" data-duration="100">Ultrauniq Managers <br><span class="theme-color">Since 1978</span></h1>
-										<p class="lead text-dark foxy-animate" data-animate="fade-in-up"  data-duration="200">Build a website as impressive as your ultrauniq with professional.</p>
-										<a href="#" class="btn btn-lg btn-primary rounded-0 mt-4 foxy-animate" data-animate="fade-in-left" data-duration="300">Learn More</a>
-										<a href="#" class="btn btn-lg btn-light rounded-0 ml-3 mt-4 foxy-animate" data-animate="fade-in-right"  data-duration="350">Get Started</a>
-									</div><!-- .item -->
-									<div class="item p-2">
-										<h1 class="mb-3 text-uppercase text-dark foxy-animate" data-animate="fade-in-right" data-duration="100">Ultrauniq Managers <span class="theme-color">Since 1978</span></h1>
-										<p class="lead text-dark foxy-animate" data-animate="fade-in-left"  data-duration="200">Build a website as impressive as your ultrauniq with this attractive and professionals.</p>
-										<a href="#" class="btn btn-lg btn-primary rounded-0 mt-4 foxy-animate" data-animate="fade-in-up" data-duration="300">Learn More</a>
-										<a href="#" class="btn btn-lg lg btn-light rounded-0 ml-3 mt-4 foxy-animate" data-animate="fade-in-up"  data-duration="400">Get Started</a>
-									</div><!-- .item -->
-								</div><!-- .owl-carousel -->
-							</div><!-- .slide-wrapper -->							
+					<div class="row align-items-center h-100">
+						<div class="col-md-6">
+							<h1 class="mb-3 text-uppercase text-light foxy-animate" data-animate="fade-in-down" data-duration="100">Ultrauniq Managers Since 1978</h1>
+							<p class="lead text-light foxy-animate" data-animate="fade-in-up"  data-duration="200">Build a website as impressive as your ultrauniq with this attractive and professionals.</p>
+							<a href="#" class="btn btn-lg btn-light rounded-0 mr-3 mt-4 foxy-animate" data-animate="fade-in-left" data-duration="300">Learn More</a>
+							<a href="#" class="btn btn-lg btn-outline-light rounded-0 mt-4 foxy-animate" data-animate="fade-in-right"  data-duration="350">Get Started</a>
 						</div>
 					</div>
 				</div>
 			</section>
 			
 		</header><!--Header-->
-					
-		<section class="vector-featurebox-section section-bg-mild">
+		
+		<section class="classic-tab-section set-as-background background-fixed section-text-white" data-bgimg="images/bg/12.jpg">
 			<div class="section-inner">
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-9">
-							<div class="section-title-wrapper mb-5 text-center">
-								<span class="section-sub-title">Contact</span>
-								<h2 class="section-title text-uppercase">Contact from Classic</h2>
-								<span class="section-title-seperator"></span>
-								<p class="lead text-muted p-0">Here we giving you awesome featured box vector model.</p>
+					<div class="row">
+						<div class="col-md-7 d-none d-md-flex">
+							<div class="about-img-left">
+								<div class="abs-pos-middle"><a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video waves-icon"><span class="ti-control-play"></span></a></div>
+								<img class="img-fluid rounded" alt="Tab Image" src="images/others/tab-left.jpg" />
+							</div>
+						</div><!-- ./col -->
+						<div class="col-md-5 align-self-center">
+							<div class="section-title-wrapper">
+								<h2 class="section-title text-uppercase text-white">ABOUT US</h2>
+								<span class="section-title-seperator seperator-white"></span>
+								<p class="lead p-0 text-white"><strong>We Create Digital Solutions, Products and Services.</strong></p>
+								<p class="about-content mb-0 text-white">Lorem ipsum was dolor sit amet, consectetur adipisicing elit. Vitae commodi, cum necessitatibus ea quia accusamus blanditiis dolore dolorem ad voluptate, distinctio adipisci! Tenetur iusto.</p>								
 							</div>
 						</div><!-- .col -->
 					</div><!-- .row -->
 				</div><!-- .container -->
-				
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-6 col-md-6">
-							<div class="contact-form-wrapper">
-								<form id="ajax-contact" action="contact.php" method="post" novalidate="true">
-									<div class="contact-form">
-										<label for="name">Name*</label>
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name*" required="required">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="contact-form">
-										<label for="email">Email*</label>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Enter email*" required="required">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="contact-form">
-										<label for="message">Message*</label>
-										<textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message*" required="required"></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-									<button type="submit" class="btn btn-primary mt-3">Submit Now</button>
-									<div class="messages"></div>
-								</form>
-							</div>
-						</div><!-- .col -->
-						<div class="col-lg-3 col-md-5 mt-md-0 mt-5">
-							<div class="contact-info-part ml-3 mt-4">
-								<div class="media contact-info-address-wrap">
-									<div class="media-body">
-										<span class="ti-location-pin contact-icon"></span>
-										<p class="contact-info-address ml-5">Address: <br>Maount View, Oval Road <br> New York, USA</p>
-									</div>
-								</div>
-								<div class="media contact-info-email-wrap">
-									<div class="media-body">
-										<span class="ti-email contact-icon"></span>
-										<p class="contact-info-email ml-5">Email:<br>support@email.com <br>wptd@support.com</p>
-									</div>
-								</div>
-								<div class="media contact-info-phone-wrap">
-									<div class="media-body">
-										<span class="ti-mobile contact-icon"></span>
-										<p class="contact-info-phone mb-0 ml-5">Phone:<br>+91 12345 67890<br>+93 12345 67890</p>
-									</div>
-								</div>
-							</div>
-						</div><!-- .col -->
-					</div><!-- row -->
-				</div><!-- container -->
-			</div><!-- .section-inner -->
-		</section>	
-					
-		<section class="vector-featurebox-section section-bg-white">
-			<div class="section-inner">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-9">
-							<div class="section-title-wrapper mb-5 text-center">
-								<span class="section-sub-title">Contact</span>
-								<h2 class="section-title text-uppercase">Contact form grid</h2>
-								<span class="section-title-seperator"></span>
-								<p class="lead text-muted p-0">Here we giving you awesome featured box vector model.</p>
-							</div>
-						</div><!-- .col -->
-					</div><!-- .row -->
-				</div><!-- .container -->
-				
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-3 col-md-5 my-md-5 my-3 p-0">
-							<div class="contact-form-wrapper material-dark-shadow bg-light pl-3 pt-3 rounded">
-								<div class="media contact-info-part">
-									<div class="media-body">
-										<span class="ti-location-pin contact-icon"></span>
-										<p class="contact-info-address ml-5">Address: <br>Maount View, Oval Road <br> New York, USA</p>
-									</div>
-								</div>
-								<div class="media contact-info-part">
-									<div class="media-body">
-										<span class="ti-email contact-icon"></span>
-										<p class="contact-info-email ml-5">Email:<br>support@email.com <br>wptd@support.com</p>
-									</div>
-								</div>
-								<div class="media contact-info-part">
-									<div class="media-body">
-										<span class="ti-mobile contact-icon"></span>
-										<p class="contact-info-phone ml-5">Phone:<br>+91 12345 67890<br>+93 12345 67890</p>
-									</div>
-								</div>
-							</div>	
-						</div><!-- .col -->
-						<div class="col-lg-5 col-md-6 mt-md-0 mt-5 p-0">
-							<div class="contact-form-wrapper material-dark-shadow bg-light p-5 rounded">
-								<form id="ajax-contact" action="contact.php" method="post" novalidate="true">
-									<div class="contact-form">
-										<label for="name">Name*</label>
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name*" required="required">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="contact-form">
-										<label for="email">Email*</label>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Enter email*" required="required">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="contact-form">
-										<label for="message">Message*</label>
-										<textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message*" required="required"></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-									<button type="submit" class="btn btn-primary mt-3">Submit Now</button>
-									<div class="messages"></div>
-								</form>
-							</div>
-						</div><!-- .col -->
-					</div><!-- row -->
-				</div><!-- container -->
 			</div><!-- .section-inner -->
 		</section>
 		
@@ -556,10 +526,21 @@
 							</div><!-- .contact-form-wrapper -->
 						</div>						
 					</div>
-				</div>
+				</div>	
 			</div>
 		</section>
-					
+		
+		<section class="p-0 overflow-hidden">
+			<div class="container-fluid p-0">
+				<div class="row justify-content-center">
+					<div class="col-12">
+						<h2 class="d-none">Map</h2>
+						<div class="ultrauniq-gmap" data-map-style="Silver"></div>
+					</div><!-- .col -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</section>
+		
 		<footer class="section section-bg-dark">
 		
 			<div class="widgets-footer">
@@ -570,59 +551,10 @@
 								<h2 class="widget-title">About Us</h2>								
 								<div class="widget-content">
 									<p>Build a website as impressive as your ultrauniq with this attractive and professional ultrauniq company template.</p>
-									<p>Best ultrauniq company website examples.</p>
 								</div><!--.widget-content -->
 							</div><!--.widget-wrap -->
-						</div><!-- .col -->
-						<div class="col-md-6 col-lg-3 mb-lg-0 mb-4">
-							<div class="widget-wrap post-list-widget">								
-								<h2 class="widget-title">Recent Posts</h2>								
-								<div class="widget-content">
-									<div class="post-list-wrapper">
-										<div class="media post-list mb-4">
-											<a href="#" class="post-img-link mr-3">
-												<img src="images/post/mini/1.jpg" class="img-fluid rounded" alt="Best Living Room Decorating Ideas &amp; Designs">
-											</a>
-											<div class="media-body">
-												<h6 class="post-titles text-white">Best Living Room Decorating Ideas &amp; Designs</h6>
-												<ul class="nav post-meta">
-													<li class="post-date"><span class="ti-calendar mr-2"></span><a href="#">Spe 4, 2020</a></li>
-												</ul>
-											</div><!-- .media-body -->
-										</div><!-- .post-list -->
-										<div class="media post-list mb-4">
-											<a href="#" class="post-img-link mr-3">
-												<img src="images/post/mini/2.jpg" class="img-fluid rounded" alt="Food with Partially Hydrogenated Oil">
-											</a>
-											<div class="media-body">
-												<h6 class="post-titles text-white">Food with Partially Hydrogenated Oil</h6>
-												<ul class="nav post-meta">
-													<li class="post-date"><span class="ti-calendar mr-2"></span><a href="#">Spe 4, 2020</a></li>
-												</ul>
-											</div><!-- .media-body -->
-										</div><!-- .post-list -->
-									</div><!-- .post-list-wrapper -->
-								</div><!--.widget-content -->
-							</div><!--.widget-wrap -->
-						</div><!-- .col -->
-						<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-							<div class="widget-wrap contact-info-widget">								
-								<h2 class="widget-title">Contact Us</h2>								
-								<div class="widget-content">
-									<ul class="nav flex-column nav-dark-to-theme">
-										<li class="nav-item"><span class="ti-location-pin contact-icons"></span>3257, Snow St, Keilor, VIC 3036</li>
-										<li class="nav-item"><span class="ti-mobile contact-icons"></span><a href="#" class="nav-link">+02 123456</a></li>
-										<li class="nav-item"><span class="ti-email contact-icons"></span><a href="mailto:wpthemedevelopers@gmail.com" class="nav-link email-id">info@ultrauniq.com
-</a></li>
-										<li class="nav-item"><span class="ti-skype contact-icons"></span>wpthemedevelopers</li>
-									</ul>
-								</div><!--.widget-content -->
-							</div><!--.widget-wrap -->
-						</div><!-- .col -->
-						<div class="col-md-6 col-lg-3">
-							<div class="widget-wrap mailchimp-widget">								
-								<h2 class="widget-title">Subscribe</h2>								
-								<div class="widget-content">
+							<div class="widget-wrap company-links-widget mailchimp-widget">								
+								<div class="widget-content pt-2">
 									<div class="mailchimp-wrapper">
 										<form class="subscribe-form" action="inc/function.php">
 											<p class="subscribe-status-msg hide"></p>
@@ -636,20 +568,51 @@
 									</div><!-- .mailchimp-wrapper -->
 								</div><!--.widget-content -->
 							</div><!--.widget-wrap -->
-							<div class="widget-wrap social-widget">								
-								<div class="widget-content pt-3">
-									<div class="icon-wrap">
-										<ul class="nav social-icons social-icons own-social-icons">
-											<li class="nav-item"><a href="#" class="facebook-icon"><span class="ti-facebook small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="twitter-icon"><span class="ti-twitter small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="instagram-icon"><span class="ti-instagram small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="pinterest-icon"><span class="ti-pinterest small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="linkedin-icon"><span class="ti-linkedin small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="flickr-icon"><span class="ti-flickr small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="vimeo-icon"><span class="ti-vimeo small-icon"></span></a></li>
-											<li class="nav-item"><a href="#" class="youtube-icon"><span class="ti-youtube small-icon"></span></a></li>
-										</ul>
-									</div>
+						</div><!-- .col -->
+						<div class="col-md-6 col-lg-3 mb-lg-0 mb-4">
+							<div class="widget-wrap company-links-widget">								
+								<h2 class="widget-title">Company Links</h2>								
+								<div class="widget-content">
+									<ul class="nav flex-column nav-light-to-theme icon-nav">
+										<li class="nav-item"><a href="#" class="nav-link">Terms and conditions</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Privacy policy</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Signin/Register</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Our Services</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+									</ul>
+								</div><!--.widget-content -->
+							</div><!--.widget-wrap -->
+						</div><!-- .col -->
+						<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+							<div class="widget-wrap contact-info-widget">								
+								<h2 class="widget-title">Contact Us</h2>								
+								<div class="widget-content">
+									<ul class="nav flex-column nav-light-to-theme">
+										<li class="nav-item"><span class="ti-location-pin contact-icons"></span>3257, Snow St, Keilor, VIC 3036</li>
+										<li class="nav-item"><span class="ti-mobile contact-icons"></span><a href="#" class="nav-link">+02 123456</a></li>
+										<li class="nav-item"><span class="ti-email contact-icons"></span><a href="mailto:wpthemedevelopers@gmail.com" class="nav-link email-id">info@ultrauniq.com
+</a></li>
+										<li class="nav-item"><span class="ti-skype contact-icons"></span>wpthemedevelopers</li>
+									</ul>
+								</div><!--.widget-content -->
+							</div><!--.widget-wrap -->
+						</div><!-- .col -->
+						<div class="col-md-6 col-lg-3">
+							<div class="widget-wrap post-tags-widget">								
+								<h2 class="widget-title">Post Tags</h2>								
+								<div class="widget-content">
+									<ul class="nav post-tags-list">
+										<li><a href="#" class="post-tags btn btn-outline-light">Travel</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Fun</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Enertainment</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Movies</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Education</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Free Fire</a></li>										
+										<li><a href="#" class="post-tags btn btn-outline-light">Tourists</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Agency</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Popluar Places</a></li>
+										<li><a href="#" class="post-tags btn btn-outline-light">Spa</a></li>
+									</ul>
 								</div><!--.widget-content -->
 							</div><!--.widget-wrap -->
 						</div><!--.col -->
@@ -665,12 +628,17 @@
 								<a href="index.html" class="site-logo"><img class="img-fluid" src="images/white-logo.png" alt="Ultrauniq"></a>
 							</div>
 						</div>
-						<div class="col-md align-self-center">
+						<div class="col-md align-self-center mt-3 mt-md-0">
 							<div class="footer-menu-wrap">
-								<ul class="nav justify-content-center justify-content-md-end nav-light-to-theme footer-menu">
-									<li class="nav-item"><a href="#" class="nav-link">Terms and conditions</a></li>
-									<li class="nav-item"><a href="#" class="nav-link">Privacy policy</a></li>
-									<li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+								<ul class="nav social-icons social-icons own-social-icons justify-content-center justify-content-md-end">
+									<li class="nav-item"><a href="#" class="facebook-icon"><span class="ti-facebook small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="twitter-icon"><span class="ti-twitter small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="instagram-icon"><span class="ti-instagram small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="pinterest-icon"><span class="ti-pinterest small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="linkedin-icon"><span class="ti-linkedin small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="flickr-icon"><span class="ti-flickr small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="vimeo-icon"><span class="ti-vimeo small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="youtube-icon"><span class="ti-youtube small-icon"></span></a></li>
 								</ul>
 							</div>
 						</div>
