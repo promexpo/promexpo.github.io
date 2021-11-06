@@ -130,7 +130,7 @@ a:hover, a:active {
     border-color: #663fe7;
 }
 section {
-	padding: 100px 0;
+	padding: 50px 0;
     position: relative;
 }
 .section-mingle-top {
@@ -1561,6 +1561,9 @@ span.counter-value {
 /* 10. Post Styles */
 .post-info-wrap ul.nav {
     margin: 0 -6px;
+}
+.post-info-wrap .post-bottom-meta {
+    float: right;
 }
 .post-info-wrap ul.nav > li {
     margin: 0 6px;
@@ -3235,4 +3238,12 @@ svg.foxy-shape-fill.shape-normal {
     fill: #f9f9f9;
     background: #212121;
     margin-top: 0;
+}
+
+/*Custom*/
+.owl-carousel .owl-stage-outer {
+    padding-bottom: 40px !important
+}
+.pavilions-button {
+    float: right;
 }
